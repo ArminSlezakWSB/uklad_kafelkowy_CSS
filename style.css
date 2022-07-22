@@ -1,0 +1,105 @@
+body
+{
+  color: #fff;
+  background-image: url("t3.jpg");/*t4 - mogą być ewentualnie t5 bez rozmiaru  */
+  background-size:100%;
+  background-attachment:fixed;
+}
+#wrapper
+{
+  height: 1000px;
+}
+header
+{
+  color: #668b00;
+  font-size: 38px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align:center;
+  letter-spacing: 5px;
+  width: 70%;
+  margin: 10px auto;
+}
+span
+{
+  color:#e30060;/*#d49902*/
+}
+main
+{
+  width: 1200px;
+  margin: 30px auto;
+}
+section
+{
+  width: 80%;
+  margin: 20px auto;
+
+}
+section header
+{
+  color: #dedede;
+  font-size: 34px;
+  text-transform: capitalize;
+  text-align: left;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #dedede;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.triangle
+{
+  width: 0;
+  height: 0;
+  border-top: 10px solid #dedede;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+
+}
+
+article{
+  /*min-height: 300px;*/
+  width: 100%;
+  margin-left: 20px;
+}
+
+article .dives
+{
+  background-color: inherit/*#008b66 / #d49902;*/;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all .2 ease-in;
+}
+
+article .dives .title
+{
+  background-color: #000;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width:100%;
+  height: 60%;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px 0 0 10px;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in;
+}
+
+article .dives:hover .title
+{
+  opacity: .8;
+}
